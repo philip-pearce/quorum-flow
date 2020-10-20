@@ -1,0 +1,2 @@
+H,r,kp,km,q,lambda,mu,alpha,beta,gamma,kappa,L
+1,4e-06,1e-06,2e-05,0.0004,2e-05,2,2e-06,2e-05,2e-06,2e-07,2
