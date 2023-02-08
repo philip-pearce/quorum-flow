@@ -29,6 +29,7 @@ unsteady solve).
 
 For paper "Universal dynamics of biological pattern formation in spatio-temporal morphogen variations"
 
+See folder "quorum-turing".
 Comsol simulations performed in Comsol Livelink with Matlab (Comsol version 5.5) as above.
 To run the simulations, specify the oscillation time period (T_sweep), the required value(s) of K [oscillation size;
 see Fig. S1 in paper] and the kinetic parameter kA [average value of parameter that is oscillating in time].
