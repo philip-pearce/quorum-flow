@@ -1,3 +1,5 @@
+For paper "Emergent robustness of bacterial quorum sensing in fluid flow"
+
 Comsol simulations are performed via the files solve_steady_comsol.m and solve_steady_comsol_3D.m.
 This requires Comsol Livelink with Matlab (Comsol version 5.5).
 
@@ -24,3 +26,7 @@ of the time period 1/epsilon. (Note that first a steady solve should be performe
 for the mean Peclet number; when performing this steady solve, the variable Pe must
 be edited to be equal to Pe_mean; then add the time-dependent part back in for the
 unsteady solve).
+
+For paper "Universal dynamics of biological pattern formation in spatio-temporal morphogen variations"
+
+Comsol simulations performed in Comsol Livelink with Matlab (Comsol version 5.5) as above. To run the simulations, specify the oscillation time period (T_sweep), the required value(s) of K, and the kinetic parameter kA or kfA [see paper for meaning of parameters]. The code will output a Matlab file with the maximum and minimum concentrations of the signalling molecule against time. The code will stop for the value of T at which the maximum concentration reaches a critical value (see Fig. S1 in paper).
